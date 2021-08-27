@@ -14,7 +14,7 @@ public class EventHandlers {
 
 			final int mb = 1024 * 1024;
 
-			int ram = (int) ((Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / mb);
+			final int ram = (int) ((Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / mb);
 			PreGenProtect.log.info("Used-Ram: " + ram);
 			if (ram > 12000) {
 				if (ServerManager.INSTANCE.isRunning())

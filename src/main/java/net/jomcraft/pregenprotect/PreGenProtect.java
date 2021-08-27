@@ -31,9 +31,9 @@ public class PreGenProtect {
 	@SuppressWarnings("unchecked")
 	public static String getModVersion() {
 		// Stupid FG 3 workaround
-		TomlParser parser = new TomlParser();
-		InputStream stream = PreGenProtect.class.getClassLoader().getResourceAsStream("META-INF/mods.toml");
-		CommentedConfig file = parser.parse(stream);
+		final TomlParser parser = new TomlParser();
+		final InputStream stream = PreGenProtect.class.getClassLoader().getResourceAsStream("META-INF/mods.toml");
+		final CommentedConfig file = parser.parse(stream);
 
 		return ((ArrayList<CommentedConfig>) file.get("mods")).get(0).get("version");
 	}
