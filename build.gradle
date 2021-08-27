@@ -11,9 +11,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = "1.16.x-1.0.1"
+version = "1.16.x-1.0.2"
 
-def fileVersion = "1.0.1"
+def fileVersion = "1.0.2"
 group = "net.jomcraft.pregenprotect"
 
 archivesBaseName = "PreGen-Protect"

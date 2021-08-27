@@ -4,7 +4,7 @@ license="Apache License 2.0"
 
 [[mods]] 
 	modId="pregen-protect" 
-	version="1.0.1" 
+	version="1.0.2" 
 	displayName="PreGen-Protect"
 	description='''Restarts a pregen process when server's ram is running out'''
 	side="SERVER"
