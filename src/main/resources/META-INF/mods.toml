@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Apache License 2.0"
+
+[[mods]] 
+	modId="pregen-protect" 
+	version="1.0.1" 
+	displayName="PreGen-Protect"
+	description='''Restarts a pregen process when server's ram is running out'''
+	side="SERVER"
+	authors="PT400C - Jomcraft Network"
+	credits="Developed by Jomcraft Network"
+
+[[dependencies.pregen-protect]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.2,)"
+    ordering="NONE"
+    side="SERVER"
+    
+[[dependencies.pregen-protect]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,]"
+    ordering="NONE"
+    side="SERVER"
+    
+[[dependencies.pregen-protect]]
+    modId="chunkpregen"
+    mandatory=true
+    versionRange="[V1.16-3.1.1,]"
+    ordering="NONE"
+    side="SERVER"    
