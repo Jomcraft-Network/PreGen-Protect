@@ -89,10 +89,10 @@ jar {
     
 	manifest {
 		attributes([
-			"Specification-Title": "DefaultSettings",
+			"Specification-Title": "PreGen-Protect",
 			"Specification-Vendor": "Jomcraft Network",
 			"Specification-Version": fileVersion,
-			"Implementation-Title": "DefaultSettings",
+			"Implementation-Title": "PreGen-Protect",
 			"Implementation-Version": fileVersion,
 			"Implementation-Vendor" : "Jomcraft Network",
 			"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
