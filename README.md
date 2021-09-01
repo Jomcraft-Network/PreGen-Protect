@@ -1,4 +1,4 @@
-[![Build Status](https://gitlab.com/jomcraft-sources/defaultsettings/badges/1.16.1/pipeline.svg)](https://gitlab.com/jomcraft-sources/defaultsettings/tree/1.16.1)
+[![PreGen-Protect](https://github.com/Jomcraft-Network/PreGen-Protect/actions/workflows/build.yml/badge.svg?branch=1.16.x)](https://github.com/Jomcraft-Network/PreGen-Protect/actions/workflows/build.yml)
 
 ### PreGen-Protect
 
