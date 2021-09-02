@@ -4,7 +4,7 @@ license="Apache License 2.0"
 
 [[mods]] 
 	modId="pregen-protect" 
-	version="1.0.3" 
+	version="${version}" 
 	displayName="PreGen-Protect"
 	description='''Restarts a pregen process when server's RAM is running out'''
 	side="SERVER"
@@ -14,7 +14,7 @@ license="Apache License 2.0"
 [[dependencies.pregen-protect]]
     modId="forge"
     mandatory=true
-    versionRange="[36.2.2,)"
+    versionRange="[${forge_version},)"
     ordering="NONE"
     side="SERVER"
     

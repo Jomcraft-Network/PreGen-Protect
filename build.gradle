@@ -85,6 +85,23 @@ dependencies {
 	implementation fg.deobf("curse.maven:cpg-267193:3436684")
 }
 
+def forge_version = "36.2.2"
+
+processResources {
+
+	duplicatesStrategy = 'include'
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'META-INF/mods.toml'
+
+        expand 'version': fileVersion, 'forge_version': forge_version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'META-INF/mods.toml'
+    }
+}
+
 jar {
     
 	manifest {
